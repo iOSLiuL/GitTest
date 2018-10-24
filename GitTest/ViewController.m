@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestVC.h"
 
 @interface ViewController ()
 @property (assign, nonatomic) BOOL isReplace;
@@ -20,6 +21,11 @@
     self.view.backgroundColor = [UIColor redColor];
     self.view.backgroundColor = [UIColor redColor];
     self.view.backgroundColor = [UIColor redColor];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    TestVC *vc = [[TestVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

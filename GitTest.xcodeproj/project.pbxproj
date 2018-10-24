@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E7C90D52180061D00755744 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C90D42180061D00755744 /* TestVC.m */; };
 		9E8550A1217FFA9600660C6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8550A0217FFA9600660C6A /* AppDelegate.m */; };
 		9E8550A4217FFA9600660C6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8550A3217FFA9600660C6A /* ViewController.m */; };
 		9E8550A7217FFA9600660C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8550A5217FFA9600660C6A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E7C90D32180061D00755744 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		9E7C90D42180061D00755744 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		9E85509C217FFA9600660C6A /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E85509F217FFA9600660C6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E8550A0217FFA9600660C6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				9E8550A0217FFA9600660C6A /* AppDelegate.m */,
 				9E8550A2217FFA9600660C6A /* ViewController.h */,
 				9E8550A3217FFA9600660C6A /* ViewController.m */,
+				9E7C90D32180061D00755744 /* TestVC.h */,
+				9E7C90D42180061D00755744 /* TestVC.m */,
 				9E8550A5217FFA9600660C6A /* Main.storyboard */,
 				9E8550A8217FFA9700660C6A /* Assets.xcassets */,
 				9E8550AA217FFA9700660C6A /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7C90D52180061D00755744 /* TestVC.m in Sources */,
 				9E8550A4217FFA9600660C6A /* ViewController.m in Sources */,
 				9E8550AF217FFA9700660C6A /* main.m in Sources */,
 				9E8550A1217FFA9600660C6A /* AppDelegate.m in Sources */,
